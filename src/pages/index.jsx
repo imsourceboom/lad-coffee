@@ -35,7 +35,7 @@ const IndexPage = () => (
       <StyledAniLink swipe to="/brunch/" entryOffset={10}>
         BRUNCH
       </StyledAniLink>
-      <StyledAniLink swipe direction="down" entryOffset={10} to="/signature/">
+      <StyledAniLink swipe direction="down" entryOffset={80} to="/signature/">
         SIGNATURE
       </StyledAniLink>
       <StyledAniLink swipe direction="left" entryOffset={10} to="/new/">
