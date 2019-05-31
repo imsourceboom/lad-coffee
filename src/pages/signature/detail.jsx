@@ -17,90 +17,25 @@ const params = {
 }
 
 const Detail = ({ location }) => {
-  if (location.state.slideKey === "0") {
-    return (
-      <Layout notMain>
-        <SEO title="signature" />
-        <Swiper {...params} activeSlideKey="0">
-          <Item className="swiper-slide" key="0">
-            <Image filename="signature/almond.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="1">
-            <Image filename="signature/nutella.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="2">
-            <Image filename="signature/red-blue.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="3">
-            <Image filename="signature/refresh.jpg" />
-          </Item>
-        </Swiper>
-      </Layout>
-    )
-  } else if (location.state.slideKey === "1") {
-    return (
-      <Layout notMain>
-        {console.log(location.state)}
-        <SEO title="signature" />
-        <Swiper {...params} activeSlideKey="1">
-          <Item className="swiper-slide" key="0">
-            <Image filename="signature/almond.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="1">
-            <Image filename="signature/nutella.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="2">
-            <Image filename="signature/red-blue.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="3">
-            <Image filename="signature/refresh.jpg" />
-          </Item>
-        </Swiper>
-      </Layout>
-    )
-  } else if (location.state.slideKey === "2") {
-    return (
-      <Layout notMain>
-        {console.log(location.state)}
-        <SEO title="signature" />
-        <Swiper {...params} activeSlideKey="2">
-          <Item className="swiper-slide" key="0">
-            <Image filename="signature/almond.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="1">
-            <Image filename="signature/nutella.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="2">
-            <Image filename="signature/red-blue.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="3">
-            <Image filename="signature/refresh.jpg" />
-          </Item>
-        </Swiper>
-      </Layout>
-    )
-  } else if (location.state.slideKey === "3") {
-    return (
-      <Layout notMain>
-        {console.log(location.state)}
-        <SEO title="signature" />
-        <Swiper {...params} activeSlideKey="3">
-          <Item className="swiper-slide" key="0">
-            <Image filename="signature/almond.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="1">
-            <Image filename="signature/nutella.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="2">
-            <Image filename="signature/red-blue.jpg" />
-          </Item>
-          <Item className="swiper-slide" key="3">
-            <Image filename="signature/refresh.jpg" />
-          </Item>
-        </Swiper>
-      </Layout>
-    )
-  }
+  return (
+    <Layout notMain>
+      <SEO title="signature" />
+      <Swiper {...params} activeSlideKey={location.state.slideKey}>
+        <Item className="swiper-slide" key="0">
+          <Image filename="signature/almond.jpg" />
+        </Item>
+        <Item className="swiper-slide" key="1">
+          <Image filename="signature/nutella.jpg" />
+        </Item>
+        <Item className="swiper-slide" key="2">
+          <Image filename="signature/red-blue.jpg" />
+        </Item>
+        <Item className="swiper-slide" key="3">
+          <Image filename="signature/refresh.jpg" />
+        </Item>
+      </Swiper>
+    </Layout>
+  )
 }
 
 export default Detail
