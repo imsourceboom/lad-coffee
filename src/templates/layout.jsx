@@ -20,20 +20,15 @@ const Main = styled.main`
   max-height: 100vh;
   overflow-y: scroll;
   /* padding: ${props => (props.Padding ? "3rem 1rem" : "0")}; */
-  padding: ${props => props.Padding && "5rem 1rem 3rem"};
+  margin-top: ${props => props.Padding && "30px"};
 `
 
 const GoHome = styled(AniLink)`
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
   position: fixed;
-  right: 1.5rem;
-  bottom: 1.5rem;
-  background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/1510502_559219777502902_1413040028_n.jpg?_nc_cat=105&_nc_ht=scontent-icn1-1.xx&oh=d4159c14f81fc0d602cbba7dc89863fc&oe=5D5E61A7");
-  background-size: 180%;
-  background-position: center 36%;
-  background-repeat: no-repeat;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  color: white;
   z-index: 1000;
 `
 
@@ -54,7 +49,9 @@ const Layout = ({ children, notMain }) => (
         {notMain && <Header siteTitle={data.site.siteMetadata.title} />}
         {notMain ? <Main Padding>{children}</Main> : <Main>{children}</Main>}
         {notMain && (
-          <GoHome swipe direction="down" entryOffset={50} top="entry" to="/" />
+          <GoHome swipe direction="down" entryOffset={50} top="entry" to="/">
+            lad coffee
+          </GoHome>
         )}
       </>
     )}

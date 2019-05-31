@@ -14,18 +14,18 @@ const StyledAniLink = styled(AniLink)`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  color: #888585;
 
   &:first-child {
     background-color: white;
   }
 
   &:nth-child(2) {
-    background-color: rgba(206, 204, 184, 1);
+    background-color: #f6e4c3;
   }
 
   &:last-child {
-    background-color: black;
-    color: white;
+    background-color: #2f2f2f;
   }
 `
 const IndexPage = () => (
