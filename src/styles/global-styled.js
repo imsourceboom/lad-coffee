@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+// import Swiper from "./swiper"
 
 const GlobalStyled = createGlobalStyle`
 

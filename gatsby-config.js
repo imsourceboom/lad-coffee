@@ -35,6 +35,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-polyfill-io`,
     // {
     //   resolve: "gatsby-plugin-transition-link",
     //   options: {
