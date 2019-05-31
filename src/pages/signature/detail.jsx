@@ -17,10 +17,10 @@ const params = {
 }
 
 const Detail = props => {
-  const activeIndex = String(props.location.state.list)
+  const activeIndex = String(props.location.state.slideKey)
   return (
     <Layout notMain>
-      {console.log(props.location)}
+      {/* {console.log(props.location)} */}
       <SEO title="signature" />
       <Swiper {...params} activeSlideKey={activeIndex}>
         <Item className="swiper-slide" key="0">
