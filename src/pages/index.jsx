@@ -7,6 +7,7 @@ import SEO from "../templates/seo"
 
 const Wrap = styled.div`
   display: flex;
+  font-family: "Noto Sans KR", sans-serif;
 `
 const StyledAniLink = styled(AniLink)`
   flex: 1;

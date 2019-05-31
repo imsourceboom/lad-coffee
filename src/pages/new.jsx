@@ -3,12 +3,12 @@ import { Link } from "gatsby"
 
 import Layout from "../templates/layout"
 import SEO from "../templates/seo"
+import Image from "../components/image"
 
 const SecondPage = () => (
   <Layout notMain>
     <SEO title="new" />
-    <h1>new</h1>
-    <p>Welcome to NEW menus</p>
+    <Image filename="origin.png" />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

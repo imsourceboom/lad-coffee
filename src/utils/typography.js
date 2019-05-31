@@ -9,12 +9,16 @@ const typography = new Typography({
       styles: ["700"],
     },
     {
+      name: "Noto Sans KR",
+      styles: ["100", "300", "400", "700"],
+    },
+    {
       name: "Noto Serif KR",
       styles: ["200", "300", "400", "700"],
     },
   ],
   headerFontFamily: ["Cabin", "sans-serif"],
-  bodyFontFamily: ["Noto Serif KR", "serif"],
+  bodyFontFamily: ["Noto Serif KR", "Noto Sans KR", "sans-serif", "serif"],
   headerColor: "hsla(0,0%,0%,0.8)",
   bodyColor: "hsla(0,0%,0%,0.7)",
   headerWeight: 700,

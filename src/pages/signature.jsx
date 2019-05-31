@@ -10,7 +10,7 @@ const SecondPage = () => (
     <SEO title="signature" />
     {/* <h1>signature</h1>
     <p>Welcome to Signature</p> */}
-    <Image />
+    <Image filename="elsa.png" />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
