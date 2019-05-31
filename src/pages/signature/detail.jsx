@@ -17,12 +17,12 @@ const params = {
 }
 
 const Detail = props => {
-  const activeIndex = String(props.location.state.slideKey)
+  // const activeIndex = String()
   return (
     <Layout notMain>
       {/* {console.log(props.location)} */}
       <SEO title="signature" />
-      <Swiper {...params} activeSlideKey={activeIndex}>
+      <Swiper {...params} activeSlideKey={props.location.state.slideKey}>
         <Item className="swiper-slide" key="0">
           <Image filename="signature/almond.jpg" />
         </Item>
