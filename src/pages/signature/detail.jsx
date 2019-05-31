@@ -16,13 +16,13 @@ const params = {
   loop: true,
 }
 
-const Detail = props => {
+const Detail = ({ location }) => {
   // const activeIndex = String()
   return (
     <Layout notMain>
       {/* {console.log(props.location)} */}
       <SEO title="signature" />
-      <Swiper {...params} activeSlideKey={props.location.state.slideKey}>
+      <Swiper {...params} activeSlideKey={location.state.slideKey}>
         <Item className="swiper-slide" key="0">
           <Image filename="signature/almond.jpg" />
         </Item>
