@@ -5,9 +5,9 @@ import Layout from "../templates/layout"
 import SEO from "../templates/seo"
 
 const SecondPage = () => (
-  <Layout headerUse>
-    <SEO title="NEW" />
-    <h1>New menus</h1>
+  <Layout notMain>
+    <SEO title="new" />
+    <h1>new</h1>
     <p>Welcome to NEW menus</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

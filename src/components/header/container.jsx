@@ -4,14 +4,14 @@ import { Container, StyledAniLink } from "./styled"
 
 export default () => (
   <Container>
-    <StyledAniLink fade to="/brunch">
-      Brunch
+    <StyledAniLink fade to="/food">
+      food
     </StyledAniLink>
     <StyledAniLink fade to="/signature">
-      Signature
+      signature
     </StyledAniLink>
     <StyledAniLink fade to="/new">
-      New
+      new
     </StyledAniLink>
   </Container>
 )

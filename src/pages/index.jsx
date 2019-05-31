@@ -32,14 +32,14 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Wrap>
-      <StyledAniLink swipe to="/brunch/" entryOffset={10}>
-        BRUNCH
+      <StyledAniLink swipe direction="up" entryOffset={10} to="/food/">
+        food
       </StyledAniLink>
       <StyledAniLink swipe direction="up" entryOffset={10} to="/signature/">
-        SIGNATURE
+        signature
       </StyledAniLink>
-      <StyledAniLink swipe direction="left" entryOffset={10} to="/new/">
-        NEW
+      <StyledAniLink swipe direction="up" entryOffset={10} to="/new/">
+        new
       </StyledAniLink>
     </Wrap>
   </Layout>
