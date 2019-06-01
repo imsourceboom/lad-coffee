@@ -20,19 +20,16 @@ const Detail = ({ location }) => {
   const startIndex = location.hash.substring(1)
   return (
     <Layout notMain>
-      <SEO title="signature" />
+      <SEO title="food" />
       <Swiper {...params} activeSlideKey={startIndex}>
         <Item className="swiper-slide" key="0">
-          <Image filename="signature/almond.jpg" />
+          <Image filename="food/avocado.jpg" />
         </Item>
         <Item className="swiper-slide" key="1">
-          <Image filename="signature/nutella.jpg" />
+          <Image filename="food/garlic.jpg" />
         </Item>
         <Item className="swiper-slide" key="2">
-          <Image filename="signature/red-blue.jpg" />
-        </Item>
-        <Item className="swiper-slide" key="3">
-          <Image filename="signature/refresh.jpg" />
+          <Image filename="food/potato.jpg" />
         </Item>
       </Swiper>
     </Layout>

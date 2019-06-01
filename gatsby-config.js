@@ -22,9 +22,10 @@ module.exports = {
         name: `LAD coffee`,
         short_name: `LAD`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
+        orientation: `landscape`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
