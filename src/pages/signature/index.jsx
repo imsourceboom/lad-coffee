@@ -25,16 +25,16 @@ const Signature = () => (
     <SEO title="signature" />
     <Container>
       <Box>
-        <Item to="/signature/detail/" state={{ slideKey: "0" }} replace>
+        <Item to="/signature/detail#0">
           <Image filename="origin/s/almond.jpg" />
         </Item>
-        <Item to="/signature/detail/" state={{ slideKey: "1" }} replace>
+        <Item to="/signature/detail#1">
           <Image filename="origin/s/nutella.jpg" />
         </Item>
-        <Item to="/signature/detail/" state={{ slideKey: "2" }} replace>
+        <Item to="/signature/detail#2">
           <Image filename="origin/s/red-blue.jpg" />
         </Item>
-        <Item to="/signature/detail/" state={{ slideKey: "3" }} replace>
+        <Item to="/signature/detail#3">
           <Image filename="origin/s/refresh.jpg" />
         </Item>
       </Box>

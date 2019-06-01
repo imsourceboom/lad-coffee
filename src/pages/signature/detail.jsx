@@ -17,12 +17,12 @@ const params = {
 }
 
 const Detail = ({ location }) => {
-  const { slideKey } = location.state
+  const startIndex = location.hash.substring(1)
   return (
     <Layout notMain>
-      {console.log(slideKey)}
+      {/* {console.log("props", props.location.hash.substring(1))} */}
       <SEO title="signature" />
-      <Swiper {...params} activeSlideKey={slideKey}>
+      <Swiper {...params} activeSlideKey={startIndex}>
         <Item className="swiper-slide" key="0">
           <Image filename="signature/almond.jpg" />
         </Item>
