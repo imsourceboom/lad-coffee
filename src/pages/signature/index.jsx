@@ -12,7 +12,7 @@ const Container = styled.div``
 const Box = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  padding-top: 3rem;
+  padding: 3rem 0;
 `
 
 const Item = styled.li`
