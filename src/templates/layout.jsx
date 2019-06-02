@@ -32,6 +32,7 @@ const GoHome = styled(AniLink)`
   color: white;
   z-index: 1000;
   font-size: 18px;
+  opacity: 0;
 `
 
 const Layout = ({ children, notMain }) => (

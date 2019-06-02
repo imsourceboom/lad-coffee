@@ -24,9 +24,9 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
-        display: `minimal-ui`,
+        display: `fullscreen`,
         orientation: `landscape`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/lad.png`, // This path is relative to the root of the site.
       },
     },
     {
