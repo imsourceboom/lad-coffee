@@ -57,7 +57,7 @@ const GlobalStyled = createGlobalStyle`
     }
     
 
-    .tl-edges {
+    /* .tl-edges {
         overflow:initial;
     }
 
@@ -65,6 +65,6 @@ const GlobalStyled = createGlobalStyle`
         min-height: 100vh;
         max-height: 100vh;
         overflow:hidden;
-    }
+    } */
 `
 export default GlobalStyled
