@@ -10,6 +10,7 @@ export const Container = styled.header`
   display: flex;
   height: 30px;
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 0.9rem;
 `
 
 export const StyledAniLink = styled(AniLink)`

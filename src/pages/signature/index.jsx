@@ -13,6 +13,8 @@ const Box = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 3rem 0;
+  font-weight: 100;
+  font-size: 0.9rem;
 `
 
 const Item = styled.li`
@@ -69,8 +71,8 @@ const Signature = () => (
             <Image filename="origin/s/refresh.jpg" />
             <Title>
               <p>마이또</p>
-              <p>리프레싱 주스</p>
               <p>시트러스 썸</p>
+              <p>리프레싱 주스</p>
             </Title>
           </AniLink>
         </Item>
