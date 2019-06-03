@@ -27,12 +27,12 @@ const Main = styled.main`
 const GoHome = styled(AniLink)`
   position: fixed;
   left: 50%;
-  bottom: 1rem;
+  bottom: 1.5rem;
   transform: translateX(-50%);
   color: white;
   z-index: 1000;
   font-size: 18px;
-  opacity: 0;
+  /* opacity: 0; */
 `
 
 const Layout = ({ children, notMain }) => (
@@ -51,14 +51,14 @@ const Layout = ({ children, notMain }) => (
         <GlobalStyled />
         {notMain && <Header siteTitle={data.site.siteMetadata.title} />}
         {notMain ? <Main Padding>{children}</Main> : <Main>{children}</Main>}
-        {/* {notMain && (
+        {notMain && (
           <GoHome swipe direction="down" entryOffset={50} top="entry" to="/">
             lad coffee
           </GoHome>
-        )} */}
-        <GoHome swipe direction="down" entryOffset={50} top="entry" to="/">
+        )}
+        {/* <GoHome swipe direction="down" entryOffset={50} top="entry" to="/">
           lad coffee
-        </GoHome>
+        </GoHome> */}
       </>
     )}
   />

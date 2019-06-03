@@ -74,6 +74,14 @@ const Signature = () => (
             </Title>
           </AniLink>
         </Item>
+        <Item>
+          <AniLink fade to="/signature/detail#4">
+            <Image filename="origin/s/tiger.jpg" />
+            <Title>
+              <p>타이거 슈가 밀크티</p>
+            </Title>
+          </AniLink>
+        </Item>
       </Box>
     </Container>
   </Layout>

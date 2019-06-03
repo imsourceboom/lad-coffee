@@ -34,6 +34,9 @@ const Detail = ({ location }) => {
         <Item className="swiper-slide" key="3">
           <Image filename="signature/refresh.jpg" />
         </Item>
+        <Item className="swiper-slide" key="4">
+          <Image filename="signature/tiger.jpg" />
+        </Item>
       </Swiper>
     </Layout>
   )
