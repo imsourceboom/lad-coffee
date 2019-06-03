@@ -66,5 +66,18 @@ const GlobalStyled = createGlobalStyle`
         max-height: 100vh;
         overflow:hidden;
     } */
+
+    .swiper-container {
+        animation: start 2.25s;
+
+        @keyframes start {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    }
 `
 export default GlobalStyled

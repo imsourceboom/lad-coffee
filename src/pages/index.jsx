@@ -51,7 +51,7 @@ const IndexPage = () => (
         <Title>BRUNCH</Title>
         <List>
           <Item>
-            <AniLink fade to="/brunch/detail#0">
+            <AniLink to="/brunch/detail#0">
               <Image filename="origin/b/avocado.jpg" />
               <Name>
                 <p>계란아보카도 샌드위치</p>
@@ -59,7 +59,7 @@ const IndexPage = () => (
             </AniLink>
           </Item>
           <Item center>
-            <AniLink fade to="/brunch/detail#1">
+            <AniLink to="/brunch/detail#1">
               <Image filename="origin/b/garlic.jpg" />
               <Name>
                 <p>갈릭쉬림프 샌드위치</p>
@@ -67,7 +67,7 @@ const IndexPage = () => (
             </AniLink>
           </Item>
           <Item>
-            <AniLink fade to="/brunch/detail#2">
+            <AniLink to="/brunch/detail#2">
               <Image filename="origin/b/potato.jpg" />
               <Name>
                 <p>감자스프 & 크로와상 샌드위치</p>
@@ -80,7 +80,7 @@ const IndexPage = () => (
         <Title>SIGNATURE</Title>
         <List>
           <Item>
-            <AniLink fade to="/signature/detail#0">
+            <AniLink to="/signature/detail#0">
               <Image filename="origin/s/almond.jpg" />
               <Name>
                 <p>스노우볼</p>
@@ -89,7 +89,7 @@ const IndexPage = () => (
             </AniLink>
           </Item>
           <Item center>
-            <AniLink fade to="/signature/detail#1">
+            <AniLink to="/signature/detail#1">
               <Image filename="origin/s/nutella.jpg" />
               <Name>
                 <p>누텔라 쉐이크</p>
@@ -99,7 +99,7 @@ const IndexPage = () => (
             </AniLink>
           </Item>
           <Item>
-            <AniLink fade to="/signature/detail#2">
+            <AniLink to="/signature/detail#2">
               <Image filename="origin/s/red-blue.jpg" />
               <Name>
                 <p>레드 카페오레 안나</p>
@@ -108,7 +108,7 @@ const IndexPage = () => (
             </AniLink>
           </Item>
           <Item>
-            <AniLink fade to="/signature/detail#3">
+            <AniLink to="/signature/detail#3">
               <Image filename="origin/s/refresh.jpg" />
               <Name>
                 <p>마이또</p>
@@ -118,7 +118,7 @@ const IndexPage = () => (
             </AniLink>
           </Item>
           <Item center>
-            <AniLink fade to="/signature/detail#4">
+            <AniLink to="/signature/detail#4">
               <Image filename="origin/s/tiger.jpg" />
               <Name>
                 <p>타이거 슈가 밀크티</p>
@@ -131,7 +131,7 @@ const IndexPage = () => (
         <Title>NEW</Title>
         <List>
           <Item>
-            <AniLink fade to="/new/detail#0">
+            <AniLink to="/new/detail#0">
               <Image filename="origin/s/tiger.jpg" />
               <Name>
                 <p>타이거 슈가 밀크티</p>
