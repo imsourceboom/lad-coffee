@@ -13,7 +13,7 @@ const Box = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 3rem 0;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 0.9rem;
 `
 
@@ -43,6 +43,7 @@ const Signature = () => (
           <AniLink fade to="/signature/detail#0">
             <Image filename="origin/s/almond.jpg" />
             <Title>
+              <p>스노우볼</p>
               <p>솔티 아몬드 크림커피</p>
             </Title>
           </AniLink>
@@ -61,8 +62,8 @@ const Signature = () => (
           <AniLink fade to="/signature/detail#2">
             <Image filename="origin/s/red-blue.jpg" />
             <Title>
-              <p>블루 카페오레 엘사</p>
               <p>레드 카페오레 안나</p>
+              <p>블루 카페오레 엘사</p>
             </Title>
           </AniLink>
         </Item>

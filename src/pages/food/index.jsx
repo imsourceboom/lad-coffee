@@ -12,6 +12,8 @@ const Box = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 3rem 0;
+  font-weight: 300;
+  font-size: 0.9rem;
 `
 
 const Item = styled.li`
@@ -40,7 +42,7 @@ const Food = () => (
           <AniLink fade to="/food/detail#0">
             <Image filename="origin/f/avocado.jpg" />
             <Title>
-              <p>아보카도</p>
+              <p>계란아보카도 샌드위치</p>
             </Title>
           </AniLink>
         </Item>
@@ -48,7 +50,7 @@ const Food = () => (
           <AniLink fade to="/food/detail#1">
             <Image filename="origin/f/garlic.jpg" />
             <Title>
-              <p>갈릭</p>
+              <p>갈릭쉬림프 샌드위치</p>
             </Title>
           </AniLink>
         </Item>
@@ -56,7 +58,7 @@ const Food = () => (
           <AniLink fade to="/food/detail#2">
             <Image filename="origin/f/potato.jpg" />
             <Title>
-              <p>감자</p>
+              <p>감자스프 & 크로와상 샌드위치</p>
             </Title>
           </AniLink>
         </Item>
