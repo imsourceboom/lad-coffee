@@ -29,7 +29,7 @@ module.exports = {
         icon: `src/images/lad.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -38,12 +38,6 @@ module.exports = {
     },
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-polyfill-io`,
-    // {
-    //   resolve: "gatsby-plugin-transition-link",
-    //   options: {
-    //     layout: require.resolve(`./src/templates/layout.jsx`),
-    //   },
-    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
