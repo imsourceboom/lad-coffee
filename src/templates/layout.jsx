@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import { Header } from "../components/header"
+// import { Header } from "../components/header"
 import GlobalStyled from "../styles/global-styled"
 
 const Main = styled.main`
