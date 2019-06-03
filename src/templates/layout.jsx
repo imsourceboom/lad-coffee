@@ -21,7 +21,7 @@ const Main = styled.main`
   max-height: 100vh;
   overflow-y: scroll;
   /* padding: ${props => (props.Padding ? "3rem 1rem" : "0")}; */
-  margin-top: ${props => props.Padding && "30px"};
+  /* margin-top: ${props => props.Padding && "30px"}; */
 `
 
 const GoHome = styled(AniLink)`
@@ -49,16 +49,13 @@ const Layout = ({ children, notMain }) => (
     render={data => (
       <>
         <GlobalStyled />
-        {notMain && <Header siteTitle={data.site.siteMetadata.title} />}
+        {/* {notMain && <Header siteTitle={data.site.siteMetadata.title} />} */}
         {notMain ? <Main Padding>{children}</Main> : <Main>{children}</Main>}
         {notMain && (
-          <GoHome swipe direction="down" entryOffset={50} top="entry" to="/">
+          <GoHome fade to="/">
             lad coffee
           </GoHome>
         )}
-        {/* <GoHome swipe direction="down" entryOffset={50} top="entry" to="/">
-          lad coffee
-        </GoHome> */}
       </>
     )}
   />

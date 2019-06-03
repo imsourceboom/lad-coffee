@@ -1,74 +1,146 @@
 import React from "react"
-// import AniLink from "gatsby-plugin-transition-link/AniLink"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styled from "styled-components"
 
 import Layout from "../templates/layout"
 import SEO from "../templates/seo"
+import Image from "../components/image"
 
-const Container = styled.section``
-
-const Wrap = styled.article`
-  display: flex;
-  font-family: "Noto Sans KR", sans-serif;
-  border: 1px solid black;
+const Container = styled.section`
+  padding: 5rem 3rem 1rem;
 `
 
-const List = styled.ul``
-const Item = styled.li``
-// const StyledAniLink = styled(AniLink)`
-//   flex: 1;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100vh;
-//   color: #888585;
+const Wrap = styled.article`
+  padding-bottom: 6rem;
+`
 
-//   &:first-child {
-//     background-color: white;
-//   }
+const Title = styled.h1`
+  padding-bottom: 1.5rem;
+  /* color: rgba(0, 0, 0, 0.54); */
+`
 
-//   &:nth-child(2) {
-//     background-color: #f6e4c3;
-//   }
+const List = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+`
+const Item = styled.li`
+  width: 30%;
+  padding: 0rem 0 3rem;
+  margin: ${props => props.center && "0 5%"};
 
-//   &:last-child {
-//     background-color: #2f2f2f;
-//   }
-// `
+  & img {
+    border-radius: 4px;
+  }
+`
+
+const Name = styled.div`
+  padding-top: 0.75rem;
+
+  & p {
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 300;
+  }
+`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Container>
       <Wrap>
-        <h1>FOOD</h1>
+        <Title>FOOD</Title>
         <List>
-          <Item />
+          <Item>
+            <AniLink fade to="/brunch/detail#0">
+              <Image filename="origin/b/avocado.jpg" />
+              <Name>
+                <p>계란아보카도 샌드위치</p>
+              </Name>
+            </AniLink>
+          </Item>
+          <Item center>
+            <AniLink fade to="/brunch/detail#1">
+              <Image filename="origin/b/garlic.jpg" />
+              <Name>
+                <p>갈릭쉬림프 샌드위치</p>
+              </Name>
+            </AniLink>
+          </Item>
+          <Item>
+            <AniLink fade to="/brunch/detail#2">
+              <Image filename="origin/b/potato.jpg" />
+              <Name>
+                <p>감자스프 & 크로와상 샌드위치</p>
+              </Name>
+            </AniLink>
+          </Item>
         </List>
       </Wrap>
       <Wrap>
-        <h1>SIGNATURE</h1>
+        <Title>SIGNATURE</Title>
         <List>
-          <Item />
+          <Item>
+            <AniLink fade to="/signature/detail#0">
+              <Image filename="origin/s/almond.jpg" />
+              <Name>
+                <p>스노우볼</p>
+                <p>솔티 아몬드 크림커피</p>
+              </Name>
+            </AniLink>
+          </Item>
+          <Item center>
+            <AniLink fade to="/signature/detail#1">
+              <Image filename="origin/s/nutella.jpg" />
+              <Name>
+                <p>누텔라 쉐이크</p>
+                <p>스노우 밤</p>
+                <p>쿠키베리</p>
+              </Name>
+            </AniLink>
+          </Item>
+          <Item>
+            <AniLink fade to="/signature/detail#2">
+              <Image filename="origin/s/red-blue.jpg" />
+              <Name>
+                <p>레드 카페오레 안나</p>
+                <p>블루 카페오레 안나</p>
+              </Name>
+            </AniLink>
+          </Item>
+          <Item>
+            <AniLink fade to="/signature/detail#3">
+              <Image filename="origin/s/refresh.jpg" />
+              <Name>
+                <p>마이또</p>
+                <p>시트러스 썸</p>
+                <p>리프레싱 주스</p>
+              </Name>
+            </AniLink>
+          </Item>
+          <Item center>
+            <AniLink fade to="/signature/detail#4">
+              <Image filename="origin/s/tiger.jpg" />
+              <Name>
+                <p>타이거 슈가 밀크티</p>
+              </Name>
+            </AniLink>
+          </Item>
         </List>
       </Wrap>
       <Wrap>
-        <h1>NEW</h1>
+        <Title>NEW</Title>
         <List>
-          <Item />
+          <Item>
+            <AniLink fade to="/new/detail#0">
+              <Image filename="origin/s/tiger.jpg" />
+              <Name>
+                <p>타이거 슈가 밀크티</p>
+              </Name>
+            </AniLink>
+          </Item>
         </List>
       </Wrap>
     </Container>
-    {/* <Wrap>
-      <StyledAniLink swipe direction="up" entryOffset={10} to="/food/">
-        food
-      </StyledAniLink>
-      <StyledAniLink swipe direction="up" entryOffset={10} to="/signature/">
-        signature
-      </StyledAniLink>
-      <StyledAniLink swipe direction="up" entryOffset={10} to="/new/">
-        new
-      </StyledAniLink>
-    </Wrap> */}
   </Layout>
 )
 
