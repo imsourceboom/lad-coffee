@@ -48,7 +48,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Container>
       <Wrap>
-        <Title>FOOD</Title>
+        <Title>BRUNCH</Title>
         <List>
           <Item>
             <AniLink fade to="/brunch/detail#0">
