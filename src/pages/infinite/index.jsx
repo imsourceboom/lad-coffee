@@ -33,28 +33,28 @@ const Detail = () => {
       <SEO title="brunch" />
       <Swiper {...params}>
         <Item className="swiper-slide">
-          <Image filename="brunch/avocado.jpg" />
+          <Image filename="brunch/avocado_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="brunch/garlic.jpg" />
+          <Image filename="brunch/garlic_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="brunch/potato.jpg" />
+          <Image filename="brunch/potato_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/almond.jpg" />
+          <Image filename="signature/almond_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/nutella.jpg" />
+          <Image filename="signature/nutella_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/red-blue.jpg" />
+          <Image filename="signature/red-blue_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/refresh.jpg" />
+          <Image filename="signature/refresh_view.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/tiger.jpg" />
+          <Image filename="signature/tiger_view.jpg" />
         </Item>
       </Swiper>
     </Layout>

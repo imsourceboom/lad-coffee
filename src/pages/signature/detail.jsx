@@ -23,19 +23,19 @@ const Detail = ({ location }) => {
       <SEO title="signature" />
       <Swiper {...params} activeSlideKey={startIndex}>
         <Item className="swiper-slide" key="0">
-          <Image filename="signature/almond.jpg" />
+          <Image filename="signature/almond_view.jpg" />
         </Item>
         <Item className="swiper-slide" key="1">
-          <Image filename="signature/nutella.jpg" />
+          <Image filename="signature/nutella_view.jpg" />
         </Item>
         <Item className="swiper-slide" key="2">
-          <Image filename="signature/red-blue.jpg" />
+          <Image filename="signature/red-blue_view.jpg" />
         </Item>
         <Item className="swiper-slide" key="3">
-          <Image filename="signature/refresh.jpg" />
+          <Image filename="signature/refresh_view.jpg" />
         </Item>
         <Item className="swiper-slide" key="4">
-          <Image filename="signature/tiger.jpg" />
+          <Image filename="signature/tiger_view.jpg" />
         </Item>
       </Swiper>
     </Layout>
