@@ -24,6 +24,7 @@ const List = styled.ul`
   flex-wrap: wrap;
   width: 100%;
 `
+
 const Item = styled.li`
   width: 30%;
   padding: 0rem 0 3rem;
