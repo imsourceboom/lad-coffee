@@ -53,9 +53,10 @@ const IndexPage = () => (
         <List>
           <Item>
             <AniLink to="/brunch/detail#0">
-              <Image filename="origin/b/avocado_512x384.jpg" />
+              <Image filename="origin/b/madeleine_512x384.jpg" />
               <Name>
-                <p>계란아보카도 샌드위치</p>
+                <p>초코마들렌 & 아이스크림</p>
+                <p>바닐라마들렌 & 아이스크림</p>
               </Name>
             </AniLink>
           </Item>
