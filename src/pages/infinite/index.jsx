@@ -33,28 +33,31 @@ const Detail = () => {
       <SEO title="brunch" />
       <Swiper {...params}>
         <Item className="swiper-slide">
-          <Image filename="brunch/madeleine_resize.jpg" />
+          <Image filename="brunch/eggs_benedict_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="brunch/garlic_resize.jpg" />
+          <Image filename="brunch/madeleine_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="brunch/potato_resize.jpg" />
+          <Image filename="brunch/shrimp_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/almond_resize.jpg" />
+          <Image filename="brunch/potato_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/nutella_resize.jpg" />
+          <Image filename="signature/almond_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/red-blue_resize.jpg" />
+          <Image filename="signature/nutella_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/refresh_resize.jpg" />
+          <Image filename="signature/red-blue_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="signature/tiger_resize.jpg" />
+          <Image filename="signature/refresh_1434x1075.jpg" />
+        </Item>
+        <Item className="swiper-slide">
+          <Image filename="signature/tiger_1434x1075.jpg" />
         </Item>
       </Swiper>
     </Layout>
