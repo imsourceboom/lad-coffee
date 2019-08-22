@@ -80,7 +80,7 @@ const IndexPage = () => (
             <AniLink to="/brunch/detail#3">
               <Image filename="origin/b/croissant_512x384.jpg" />
               <Name>
-                <p>감자스프 & 크로와상 샌드위치</p>
+                <p>크로와상 샌드위치 & 요거트볼</p>
               </Name>
             </AniLink>
           </Item>
