@@ -23,7 +23,7 @@ const Detail = ({ location }) => {
       <SEO title="brunch" />
       <Swiper {...params} activeSlideKey={startIndex}>
         <Item className="swiper-slide" key="0">
-          <Image filename="brunch/eggs_benedict_1434x1075.jpg" />
+          <Image filename="brunch/eggs-benedict_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide" key="1">
           <Image filename="brunch/madeleine_1434x1075.jpg" />
@@ -32,7 +32,7 @@ const Detail = ({ location }) => {
           <Image filename="brunch/shrimp_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide" key="3">
-          <Image filename="brunch/potato_1434x1075.jpg" />
+          <Image filename="brunch/croissant_1434x1075.jpg" />
         </Item>
       </Swiper>
     </Layout>

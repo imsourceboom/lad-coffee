@@ -33,7 +33,7 @@ const Detail = () => {
       <SEO title="brunch" />
       <Swiper {...params}>
         <Item className="swiper-slide">
-          <Image filename="brunch/eggs_benedict_1434x1075.jpg" />
+          <Image filename="brunch/eggs-benedict_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
           <Image filename="brunch/madeleine_1434x1075.jpg" />
@@ -42,7 +42,7 @@ const Detail = () => {
           <Image filename="brunch/shrimp_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
-          <Image filename="brunch/potato_1434x1075.jpg" />
+          <Image filename="brunch/croissant_1434x1075.jpg" />
         </Item>
         <Item className="swiper-slide">
           <Image filename="signature/almond_1434x1075.jpg" />

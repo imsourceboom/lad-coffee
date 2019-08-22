@@ -53,7 +53,7 @@ const IndexPage = () => (
         <List>
           <Item>
             <AniLink to="/brunch/detail#0">
-              <Image filename="origin/b/eggs_benedict_512x384.jpg" />
+              <Image filename="origin/b/eggs-benedict_512x384.jpg" />
               <Name>
                 <p>에그베네딕트</p>
               </Name>
@@ -78,7 +78,7 @@ const IndexPage = () => (
           </Item>
           <Item>
             <AniLink to="/brunch/detail#3">
-              <Image filename="origin/b/potato_512x384.jpg" />
+              <Image filename="origin/b/croissant_512x384.jpg" />
               <Name>
                 <p>감자스프 & 크로와상 샌드위치</p>
               </Name>

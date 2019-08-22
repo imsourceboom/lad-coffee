@@ -23,7 +23,7 @@ const Detail = ({ location }) => {
       <SEO title="new" />
       <Swiper {...params} activeSlideKey={startIndex}>
         <Item className="swiper-slide" key="0">
-          <Image filename="signature/tiger_resize.jpg" />
+          <Image filename="signature/tiger_1434x1075.jpg" />
         </Item>
       </Swiper>
     </Layout>
